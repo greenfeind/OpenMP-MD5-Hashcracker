@@ -1,0 +1,17 @@
+****Unzip****
+Unzip into a known directory
+cd into that directory
+
+****Compile****
+gcc -o omp-md5 -fopenmp omp-md5.c
+
+****Run****
+export OMP_NUM_THREADS=<#> (insert the number of desired threads)
+./omp-md5
+
+
+Use--------
+Enter an MD5 at prompt
+
+MD5 Command-------
+echo -n <password string> | md5sum
